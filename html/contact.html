@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Portfolio/public/stylesheets/styles.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="/Portfolio/public/images/logo.jpg" alt=""></div>
+            <ul>
+                <li><a href="/Portfolio/html/index.html">Home</a></li>
+                <li><a href="/Portfolio/html/about.html">About Me</a></li>
+                <li><a href="/Portfolio/html/project.html">Projects</a></li>
+                <li><a href="/Portfolio/html/services.html">Services</a></li>
+                <li><a href="/Portfolio/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+        <form action="#" method="post" id="contactForm">
+            <!-- Form fields for First Name, Last Name, Contact Number, Email, Message -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 DN</p>
+    </footer>
+</body>
+</html>
